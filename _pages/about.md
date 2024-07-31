@@ -18,4 +18,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Welcome to my web page !
+Welcome to my web page ! I have recently completed my <a href=https://infoscience.epfl.ch/entities/publication/8538f410-98fe-4cd7-a604-ed9febabd9a8>Ph.D.<\a> under the supervision of François Gallaire in the <a href=https://www.epfl.ch/labs/lfmi/>Laboratory of Fluid Mechanics and Instabilities<\a> at EPFL.
