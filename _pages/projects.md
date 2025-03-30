@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: what I have been working on so far, classified by major themes  
+description: (what we have been working on so far, regrouped by major themes)  
 nav: true
 nav_order: 1
 display_categories: 
