@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /assets/pdf/cv_ducimetiere.pdf
+permalink: /assets/pdf/CV_YvesMarie.pdf
 title: cv
 nav: true
 nav_order: 3
