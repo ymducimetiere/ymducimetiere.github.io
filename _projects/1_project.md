@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Weakly nonlinear nonmodal stability 
-description: with background image
+description: 
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: 
 related_publications: true
 ---
 
