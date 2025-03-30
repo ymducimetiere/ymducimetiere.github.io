@@ -2,7 +2,7 @@
 layout: page
 title: Linear modal and nonmodal stability 
 description: 
-img: assets/img/12.jpg
+img: assets/img/linp.png
 importance: 1
 category: 
 related_publications: true
