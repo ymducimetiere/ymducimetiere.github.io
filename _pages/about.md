@@ -10,7 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info:
     <p> Office 1102, </p>
-    <p> Courant Institute, 251 Mercer Street, </p>
+    <p> Courant Institute, </p>
+    <p> 251 Mercer Street, </p>
     <p> New York, NY 10012, USA. </p>
 
 news: true # includes a list of news items
