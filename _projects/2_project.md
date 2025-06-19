@@ -8,4 +8,4 @@ category:
 related_publications: true
 ---
 
-Coming soon ! {% cite Balestra2019726 %} {% cite Ducimetière2021 %} {% cite Eghbali2023 %} 
+Coming soon ! {% cite Balestra19 %} {% cite Ducimetiere21 %} {% cite Eghbali23 %} 
