@@ -30,13 +30,13 @@ By increasing the capillary number $$Ca$$, hydrodynamic-stress-driven mechanisms
 </div>
 <div class="caption">
     Figure 2. Time sequences of example breakup events for the same droplet length under three flow conditions. The breakup regime shifts from lateral to central breakup from low to high \(Ca\). The scale bar
-represents 30 \(\mu\)m.
+represents 30 \(\mu m\).
 </div>
 
 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-2 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dropb3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
