@@ -2,7 +2,7 @@
 layout: page
 title: Droplet breakup in junctions 
 description: 
-img: assets/img/12.jpg
+img: assets/img/dropb.png
 importance: 2
 category: 
 related_publications: true
