@@ -16,7 +16,7 @@ In Microfluidics, the break-up of a droplet into relatively smaller ones is ofte
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Figure 1. (a) Geometry of the T-junctions used throughout our study: Both aspect ratio $$h/w_o$$ and width ratio $$w_i/w_o$$ are larger than unity. The eye shows the observation perspective during experiments. (b) Time sequence of a lateral breakup process for an initially short (blue) and a long (red) droplet. The inset shows the interface at the moment of rupture (red arrow), captured at a frame rate of $$50 000$$ fps.
 </div>
 
 In a region of the parameter space, we reported a novel droplet breakup regime in which the droplet interface breaks symmetrically in the two outlet channels and far from the junction (see Fig. 1b), rather than at its center, as would occur for conventional T-junctions. This leads to the formation of three daughter droplets instead of two. This new breakup phenomenon is driven by an unbalanced capillary pressure at the droplet interface, induced by the strong gradient of confinement across the junction. 
