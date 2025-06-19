@@ -8,4 +8,4 @@ category:
 related_publications: true
 ---
 
-Coming soon !
+Coming soon !  {% cite Ducimetiere22a %}   {% cite Ducimetiere22b %}  {% cite Ducimetiere23 %} {% cite DucimetiereTH24 %}  {% cite Ducimetiere24 %}  {% cite Ducimetiere25 %}  
