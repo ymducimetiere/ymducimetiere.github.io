@@ -19,6 +19,6 @@ In Microfluidics, the break-up of a droplet into relatively smaller ones is ofte
     This image can also have a caption. It's like magic.
 </div>
 
-In a region of the parameter space, we reported a novel droplet breakup regime in which the droplet interface breaks symmetrically in the two outlet channels and far from the junction (see Fig. 1b), rather than at its center, as would occur for conventional T-junctions. This leads to the formation of three daughter droplets instead of two. This new breakup phenomenon is driven by an unbalanced capillary pressure at the droplet interface, induced by the strong gradient of confinement across the junction. {% 52 + w_0 %}
+In a region of the parameter space, we reported a novel droplet breakup regime in which the droplet interface breaks symmetrically in the two outlet channels and far from the junction (see Fig. 1b), rather than at its center, as would occur for conventional T-junctions. This leads to the formation of three daughter droplets instead of two. This new breakup phenomenon is driven by an unbalanced capillary pressure at the droplet interface, induced by the strong gradient of confinement across the junction. 
 
 Crucially, 
