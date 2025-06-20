@@ -6,21 +6,22 @@ img: assets/img/linp.png
 importance: 1
 category: 
 related_publications: true
+tabs: true
 ---
 
-Coming soon ! 
+## Another example
 
-{% tabs group-name %}
+{% tabs data-struct %}
 
-{% Modal %}
+{% tab data-struct Modal %}
 
-{% cite Ducimetiere21 %}
+blb
 
 {% endtab %}
 
-{% Nonmodal %}
+{% tab data-struct Nonmodal %}
 
-{% cite Balestra19 %}  {% cite Eghbali23 %} 
+okok
 
 {% endtab %}
 
