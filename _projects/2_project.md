@@ -29,21 +29,21 @@ An important ingredient influencing Holmboe waves is the spatial confinement, in
 ## Nonmodal analysis
 
 
-{% tabs nmgname %}
+{% tabs nmg %}
 
-{% tab nmgname2 Thin film on a horizontal cylinder%}
+{% tab nmg Thin film on a horizontal cylinder%}
 {% cite Balestra19 %} 
 {% endtab %}
 
-{% tab nmgname2 Internally coated horizontal tube %}
+{% tab nmg Internally coated horizontal tube %}
 {% cite Eghbali23 %} 
 {% endtab %}
 
-{% tab nmgname2 Externally coated horizontal tube %}
+{% tab nmg Externally coated horizontal tube %}
 {% cite Eghbali23 %} 
 {% endtab %}
 
-{% tab nmgname2 Internally coated vertical tube %}
+{% tab nmg Internally coated vertical tube %}
 {% cite Eghbali23 %} 
 {% endtab %}
 
