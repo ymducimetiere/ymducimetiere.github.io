@@ -11,27 +11,16 @@ tabs: true
 
 {% tabs log %}
 
-{% tab log php %}
+{% tab log Modal analysis%}
 
-```php
-var_dump('hello');
-```
+{% cite Ducimetiere21 %}
 
 {% endtab %}
 
-{% tab log js %}
+{% tab log Nomodal analysis%}
 
-```javascript
-console.log("hello");
-```
-
-{% endtab %}
-
-{% tab log ruby %}
-
-```javascript
-pputs 'hello'
-```
+{% cite Balestra19 %}
+{% cite Eghbali %}
 
 {% endtab %}
 
