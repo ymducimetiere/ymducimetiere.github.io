@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Toward a weakly nonlinear nonmodal stability theory
+title: Towards a weakly nonlinear nonmodal stability theory
 description: 
-img: assets/img/12.jpg
+img: assets/img/wnn.png
 importance: 1
 category: 
 related_publications: true
