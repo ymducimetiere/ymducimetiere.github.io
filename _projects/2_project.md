@@ -10,18 +10,30 @@ tabs: true
 ---
 
 
-{% tabs log %}
+## Tabs for something else
 
-{% tab log Modal analysis%}
+{% tabs something-else %}
 
-{% cite Ducimetiere21 %}
+{% tab something-else text %}
+
+Regular text
 
 {% endtab %}
 
-{% tab log Nomodal analysis%}
+{% tab something-else quote %}
 
-{% cite Balestra19 %}
-{% cite Eghbali23 %}
+> A quote
+
+{% endtab %}
+
+{% tab something-else list %}
+
+Hipster list
+
+- brunch
+- fixie
+- raybans
+- messenger bag
 
 {% endtab %}
 
