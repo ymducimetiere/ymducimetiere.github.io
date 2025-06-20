@@ -9,19 +9,29 @@ related_publications: true
 tabs: true
 ---
 
-## Another example
+{% tabs log %}
 
-{% tabs data-struct %}
+{% tab log php %}
 
-{% tab data-struct Modal %}
-
-blb
+```php
+var_dump('hello');
+```
 
 {% endtab %}
 
-{% tab data-struct Nonmodal %}
+{% tab log js %}
 
-okok
+```javascript
+console.log("hello");
+```
+
+{% endtab %}
+
+{% tab log ruby %}
+
+```javascript
+pputs 'hello'
+```
 
 {% endtab %}
 
