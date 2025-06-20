@@ -8,7 +8,7 @@ category:
 related_publications: true
 ---
 
-In Microfluidics, the break-up of a droplet into relatively smaller ones is often the first step to achieving versatile functionalities. With Jiande Zhou and our collaborators, we considered unconventional T-junctions whose outlet channels have a smaller dimension than the inlet channel (see Fig. 1a).
+In Microfluidics, the break-up of a droplet into comparatively smaller ones is often the first step to achieving more versatile functionalities. In this project, we considered unconventional T-junctions whose outlet channels have a smaller dimension than the inlet channel (see Fig. 1a).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -33,7 +33,7 @@ By increasing the capillary number $$Ca$$, hydrodynamic-stress-driven mechanisms
 represents 30 \(\mu m\).
 </div>
 
-Crucially, the critical capillary number $$Ca^*$$ above which the central breakup is observed was found to depend on the (mother) droplet length according to a $$-1$$ power law (see Fig. 3). 
+Crucially, the critical capillary number $$Ca^*$$, above which the central breakup is observed, was found to depend on the (mother) droplet length according to a $$-1$$ power law (see Fig. 3). 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -41,12 +41,12 @@ Crucially, the critical capillary number $$Ca^*$$ above which the central breaku
     </div>
 </div>
 <div class="caption">
-    Figure 3. The breakup transition regime map of \(C_{a_o}=C_a(w_i/w_o)/2\) versus \(\overline{L}_o\), the nondimensional initial length of the droplet. Blue and red circles represent lateral and central breakups, respectively. The black curve represents the function \(C_{a_o} \propto \overline{L}_o\).
+    Figure 3. The breakup transition regime map of \(C_{a_o}=C_a(w_i/w_o)/2\) versus \(\overline{L}_o\), the nondimensional initial length of the droplet. Blue and red circles represent lateral and central breakups, respectively. The black curve represents the function \(C_{a_o} \propto \overline{L}^{-1}_o\).
 </div>
 
-To capture these two (lateral and central) breakup phenomena, François Gallaire, <a href='https://keiser-sci.github.io/'> Ludovic Keiser </a>, and I have developed and presented in {% cite Zhou23 %} a theoretical model. The latter can qualitatively predict the formation and inflation of lateral pockets, where the continuous phase accumulates in volume much larger than that in the gutters, which indeed culminates in a lateral breakup. Nevertheless, the validity of the model was found to be restricted to low $$Ca$$ values, and it could not capture the transition to a central breakup regime at larger $$Ca$$. 
+To capture these two (lateral and central) breakup phenomena, François Gallaire, <a href='https://keiser-sci.github.io/'> Ludovic Keiser </a>, and I have developed and presented in {% cite Zhou23 %} a theoretical model. As the droplet advances inside the channel, our model can qualitatively predict the formation and inflation of lateral pockets, where the continuous phase accumulates in volume much larger than that in the gutters. This indeed culminates in a lateral breakup of the droplet. Unfortunately, the validity of the model was found to be restricted to low $$Ca$$ values, and it could not capture the transition to a central breakup regime for larger $$Ca$$. 
 
-At large $$Ca$$, elements which we did not account for in {% cite Zhou23 %}  must be incorporated into the model (e.g., viscous dissipation and a better description of the cross-section occupancy of both liquids). Numerical simulations, for instance, can help identify which ones! My former colleague at EPFL, <a href='https://scholar.google.com/citations?user=cs6B8uYAAAAJ&hl=en'> Tomas Fullana </a> is currently working on that! For my part, even though I am no longer actively working on this project, the complexity of this flow continues to fascinate me, and I intend to delve into it again in the future.  
+At large $$Ca$$, elements which we did not account for in {% cite Zhou23 %}  must be incorporated into the model (e.g., viscous dissipation, and a better description of the cross-section occupancy of both liquids). Numerical simulations, for instance, can help identify which ones! My former colleague at EPFL, <a href='https://scholar.google.com/citations?user=cs6B8uYAAAAJ&hl=en'> Tomas Fullana </a> is currently working on that! For my part, even though I am no longer actively working on this project, the complexity of this flow continues to fascinate me, and I intend to delve into it again in the future.  
 
 
 
