@@ -8,7 +8,7 @@ category:
 related_publications: true
 ---
 
-In Microfluidics, the break-up of a droplet into comparatively smaller ones is often the first step to achieving more versatile functionalities. In this project, we considered unconventional T-junctions whose outlet channels have a smaller dimension than the inlet channel (see Fig. 1a).
+In Microfluidics, the breakup of a droplet into comparatively smaller ones is often the first step to achieving more versatile functionalities. In this project, we considered unconventional T-junctions whose outlet channels have a smaller dimension than the inlet channel (see Fig. 1a).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
