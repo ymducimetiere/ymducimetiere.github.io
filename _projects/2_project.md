@@ -10,15 +10,15 @@ tabs: true
 ---
 
 
-{% tabs something-else %}
+{% tabs gname %}
 
-{% tab something-else text %}
+{% tab gname Modal analysis %}
 
 Modal
 
 {% endtab %}
 
-{% tab something-else quote %}
+{% tab gname Nonmodal analysis %}
 
 Nonmodal
 
