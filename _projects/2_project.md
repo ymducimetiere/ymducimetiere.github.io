@@ -8,4 +8,24 @@ category:
 related_publications: true
 ---
 
-Coming soon ! {% cite Balestra19 %} {% cite Ducimetiere21 %} {% cite Eghbali23 %} 
+Coming soon ! 
+
+{% tabs group-name %}
+
+{% Modal %}
+
+{% cite Ducimetiere21 %}
+
+{% endtab %}
+
+{% Nonmodal %}
+
+{% cite Balestra19 %}  {% cite Eghbali23 %} 
+
+{% endtab %}
+
+{% endtabs %}
+
+
+
+
