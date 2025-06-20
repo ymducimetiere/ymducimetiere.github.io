@@ -10,9 +10,10 @@ tabs: true
 ---
 
 
-{% tabs gname %}
+## Modal analysis
 
-{% tab gname Modal analysis %}
+{% tabs mgname %}
+{% tab mgname Holmboe waves in a confined duct%}
 
 We addressed in {% cite Ducimetiere21 %} the question of the extent to which the properties of three-dimensional Holmboe waves in an inclined square duct are well predicted by typical stability analyses that ignore the confinement of the flow between rigid walls. 
 
@@ -22,14 +23,20 @@ Flows in the atmosphere or ocean are often stably stratified in the vertical, wi
 An important ingredient influencing Holmboe waves is the spatial confinement, inherent to many geophysical flows such as valleys, estuaries, submarine canyons, straits, or deep ocean trenches, as well as, quite inevitably, to lab experiments. However, laboratory observations in confined geometries are often compared to stability analyses that ignore confinement, and numerical simulations usually impose periodic boundary conditions. Instead, in {% cite Ducimetiere21 %}, we show that the presence of rigid walls has a major impact on the stability of Holmboe waves in an inclined square duct, and that the presence of walls can even create another type of instability.
 
 {% endtab %}
-
-{% tab gname Nonmodal analysis %}
-
-Nonmodal
-
-{% endtab %}
-
 {% endtabs %}
 
 
+## Nonmodal analysis
 
+
+{% tabs nmgname %}
+
+{% tab nmgname Thin film on a horizontal cylinder%}
+{% cite Ducimetiere21 %} 
+{% endtab %}
+
+{% tab nmgname Internally coated horizontal tube %}
+{% cite Eghbali23 %} 
+{% endtab %}
+
+{% endtabs %}
