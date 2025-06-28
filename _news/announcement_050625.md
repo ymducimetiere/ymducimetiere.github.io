@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-<a href='https://cims.nyu.edu/~cm4291/'> Christiana </a> , my colleague at Courant, and I, have presented a poster at the <a href='https://sites.google.com/njit.edu/facm2025/home'> FACM 2025 </a>, at the New Jersey Institute of Technology (NJIT) in Newark! 
+<a href='https://cims.nyu.edu/~cm4291/'> Christiana </a> , my colleague at Courant, and I, both have presented a poster at the <a href='https://sites.google.com/njit.edu/facm2025/home'> FACM 2025 </a>, held at the New Jersey Institute of Technology (NJIT) in Newark! 
 
 
