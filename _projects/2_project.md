@@ -9,6 +9,11 @@ related_publications: true
 tabs: true
 ---
 
+Incompressible fluid flows, governed by the incompressible Navier-Stokes equations, are of considerable phenomenological richness. This includes forming complex spatio-temporal patterns, chaos, turbulence, and many others. Some of these observed phenomena could find elements of explanations by characterizing the linear response, i.e., the response to infinitesimally small disturbances, of the Navier-Stokes equations. This typically includes computing the eigenvalues and eigenmodes of the linearised operator, as the time-asymptotic response of the flow to an initial perturbation will be dominated by the eigenmodes associated with the least stable/most unstable eigenvalue. Such analysis, concerned with the computation of eigenmodes, is referred to as being &ldquo; modal &rdquo;. 
+
+If modal analyses of fluid flow are certainly relevant, they are also sometimes incomplete (even while remaining in a linear regime). Indeed, when the Navier-Stokes equations are linearised around a strong and non-constant background flow, the resulting operator is non-normal, which means that its action does not commute with that of its adjoint. Consequently, the finite-time flow response generically results from an intricate cooperation between a large number of eigenmodes. Here, the restriction to the least stable/most unstable eigenmode is generally irrelevant. Furthermore, still at a finite time, a negative growth rate for all eigenvalues is not a guarantee for the energy to decay monotonically for all initial conditions: some small-amplitude perturbations may experience extremely large transient amplification. The same is true for systems subject to harmonic forcing: they may exhibit very strong amplification, much larger than the inverse of the smallest damping rate, and at forcing frequencies that are unpredictable from the spectrum. Modal stability analyses have thus been generalised to said &ldquo; nonmodal &rdquo; ones, where the adjective insists on the inefficiency of the eigenbasis to describe the flow responses. 
+
+
 
 ## Modal analysis
 
