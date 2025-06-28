@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am very honored to be awarded the <a href='https://www.epfl.ch/education/phd/phd-awards/thesis-distinction/'> EPFL EDME (Ecole Doctorale de MEcanique) doctoral program distinction prize </a> ! I have conducted all my studies at the Mechanical Engineering section of EPFL, and I am very touched to see them end with this prize. I hope I will make the section proud in the future!
+I am very honored to be awarded the <a href='https://www.epfl.ch/education/phd/phd-awards/thesis-distinction/'> EPFL EDME (Ecole Doctorale de MEcanique) doctoral program distinction prize </a> ! I have conducted all my studies at the Mechanical Engineering section of EPFL, and I am very touched to see them end with this prize. I hope to make the section proud in the future!
