@@ -39,12 +39,4 @@ An important ingredient influencing Holmboe waves is the spatial confinement, in
 {% cite Eghbali23 %} 
 {% endtab %}
 
-{% tab nmg Externally coated horizontal tube %}
-{% cite Eghbali23 %} 
-{% endtab %}
-
-{% tab nmg Internally coated vertical tube %}
-{% cite Eghbali23 %} 
-{% endtab %}
-
 {% endtabs %}
