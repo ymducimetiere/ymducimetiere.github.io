@@ -26,14 +26,15 @@ Examples include the Holmboe instability, associated with relatively sharp densi
 
 An important ingredient influencing Holmboe waves is the spatial confinement, inherent to many geophysical flows such as valleys, estuaries, submarine canyons, straits, or deep ocean trenches, as well as, quite inevitably, to lab experiments. However, laboratory observations in confined geometries are often compared to stability analyses that ignore confinement, and numerical simulations usually impose periodic boundary conditions. Instead, on the occasion of my Master's project at the University of Cambridge, François Gallaire, Adrien Lefauve, Colm-Cille Caulfield, and I have showed in {% cite Ducimetiere21 %} that the presence of rigid walls has a major impact on the stability of Holmboe waves in the experimental inclined square duct shown in figure 1, and that the presence of walls can even create another type of instability.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/linho1.png" title="example im" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/linho1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Figure 1. Schematic of the confined duct flow configuration (dimensional variables) studied in {% cite Ducimetiere21 %}.
 </div>
+
 
 {% endtab %}
 {% endtabs %}
