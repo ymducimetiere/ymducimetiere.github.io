@@ -53,7 +53,7 @@ Thin films flowing on substrates are ubiquitous both in nature (e.g., lava flows
 
 However, there are many flow configurations where the flow solution around the ridge cannot be considered as being quasi-static. They typically include flows over curved surfaces, where the forces acting on the advancing ridge vary depending on its spatial location. In turn, the (potentially fast) time-dependency of the base flow makes a modal analysis inappropriate. That is because the eigenmodes generically don't evolve exponentially in time if the base flow over which they have been computed itself is modified in time! The most amplified perturbation at one time instant has no reason to be effective at the following times if the forces at play, and thus the base flow, are different afterwards. 
 
-A nonmodal analysis, on the other hand, supports any form of temporal analysis of the base flow. Considering the Newtonian fluid spreading on a horizontal cylinder under the action of gravity, <a href='https://scholar.google.com/citations?user=cs6B8uYAAAAJ&hl=en'> Gioele Balestra </a>, Mohamed Badaoui, François Gallaire, and I have thus conducted an optimal transient growth (nonmodal) analysis to find out the temporally most amplified spanwise wavenumber. 
+A nonmodal analysis, on the other hand, supports any form of temporal analysis of the base flow. Considering the Newtonian fluid spreading on a horizontal cylinder under the action of gravity, <a href='https://scholar.google.com/citations?user=l3z_vhYAAAAJ&hl=en'> Gioele Balestra </a>, Mohamed Badaoui, François Gallaire, and I have thus conducted an optimal transient growth (nonmodal) analysis to find out the temporally most amplified spanwise wavenumber. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
