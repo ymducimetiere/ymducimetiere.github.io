@@ -53,8 +53,7 @@ Thin films flowing on substrates are ubiquitous both in nature (e.g., lava flows
 
 However, there are many flow configurations where the flow solution around the ridge cannot be considered as being quasi-static. They typically include flows over curved surfaces, where the forces acting on the advancing ridge vary depending on its spatial location. In turn, the (potentially fast) time-dependency of the base flow makes a modal analysis inappropriate. That is because the eigenmodes generically don't evolve exponentially in time if the base flow over which they have been computed itself is modified in time! The most amplified perturbation at one time instant has no reason to be effective at the following times if the forces at play, and thus the base flow, are different afterwards. 
 
-A nonmodal analysis, on the other hand, supports any form of temporal analysis of the base flow. Considering the Newtonian fluid spreading on a horizontal cylinder under the action of gravity (see Fig. 2a), <a href='https://scholar.google.com/citations?user=l3z_vhYAAAAJ&hl=en'> Gioele Balestra </a>, Mohamed Badaoui, François Gallaire, and I have thus conducted in {% cite Balestra19 %} an optimal transient growth (nonmodal) analysis to find out the temporally most amplified spanwise wavenumber. We considered the optimal perturbations of the initial film thickness and the cylinder topography (see Fig. 2b), respectively.  
-
+A nonmodal analysis, on the other hand, supports any form of temporal analysis of the base flow. Considering the Newtonian fluid spreading on a horizontal cylinder under the action of gravity (see Fig. 2a), <a href='https://scholar.google.com/citations?user=l3z_vhYAAAAJ&hl=en'> Gioele Balestra </a>, Mohamed Badaoui, François Gallaire, and I have thus conducted in {% cite Balestra19 %} an optimal transient growth (nonmodal) analysis to find out the temporally most amplified spanwise wavenumber and associated azimuthal structure. 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/lincyl1.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -64,7 +63,7 @@ A nonmodal analysis, on the other hand, supports any form of temporal analysis o
     Figure 2. (a) Sketch of the geometry of the problem considered in {% cite Balestra19 %}. (b) Decomposition of the free-surface elevation \( \overline{H}+\overline{H}^o \) starting from the smooth cylindrical substrate into the draining solution \( H \) and perturbations \( \epsilon(h + h^o) \) for the optimal transient growth over a perturbed substrate with an initially uniform film. The liquid thickness is \( \overline{H} = H + \epsilon h \) whereas \( \overline{H}^o = \epsilon h^o \) is the substrate-topography perturbation.
 </div>
 
-On my side, 
+We computed the optimal perturbations of the initial film thickness and the cylinder topography (see Fig. 2b), respectively. I have been concerned with these latter (§5 of the article), and my contribution to this project was to derive the direct-adjoint algorithm represented in Fig. 3. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -72,11 +71,14 @@ On my side,
     </div>
 </div>
 <div class="caption">
-    Figure 3.
+    Figure 3. Sketch of the iterative procedure to find the optimal gain and substrate perturbation for a given time horizon \( T \), spanwise wavenumber \( \beta \), Bond number \( Bo \), and film aspect ratio \( \delta \).
 </div>
 
+For a given set of parameters, including the spanwise wavenumber $$ \beta $$, the algorithm provides the optimal azimuthal profile of the perturbation $$h^o$$, which, when applied to the cylinder topography, maximizes the transient gain
 
+ $$G(T) = \frac{\langle h(T) \mid h(T) \rangle}{ \langle h^o \mid h^o \rangle} $$
 
+where $$h(T)$$ is the thickness of the film perturbation at $$t=T$$. 
 
 {% endtab %}
 
