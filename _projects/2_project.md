@@ -16,7 +16,7 @@ While modal analyses of fluid flow are certainly relevant, the seminal work of <
 
 As listed below, my colleagues and I have applied both modal and nonmodal tools to study different flows! 
 
-## Modal analysis
+## Modal analyses
 
 {% tabs mgname %}
 {% tab mgname Holmboe waves in a confined duct%}
@@ -42,7 +42,7 @@ An important ingredient influencing Holmboe waves is the spatial confinement, in
 {% endtabs %}
 
 
-## Nonmodal analysis
+## Nonmodal analyses
 
 
 {% tabs nmg %}
@@ -85,7 +85,9 @@ We found in particular that, among all the $$\beta$$, the one leading to the lar
 {% endtab %}
 
 {% tab nmg Internally coated horizontal tube %}
+
 {% cite Eghbali23 %} 
+
 {% endtab %}
 
 {% endtabs %}
