@@ -74,13 +74,13 @@ We computed the optimal perturbations of the initial film thickness and the cyli
     Figure 3. Sketch of the iterative procedure to find the optimal gain and substrate perturbation for a given time horizon \( T \), spanwise wavenumber \( \beta \), Bond number \( Bo \), and film aspect ratio \( \delta \).
 </div>
 
-For a given set of parameters, including the spanwise wavenumber $$ \beta $$, the algorithm provides the optimal azimuthal profile of the perturbation $$h^o$$, which, when applied to the cylinder topography, maximizes the transient gain
+For a given set of parameters, including the spanwise wavenumber $$\beta$$, the algorithm provides the optimal azimuthal profile of the perturbation $$h^o$$, which, when applied to the cylinder topography, maximizes the transient gain
 
- $$G(T) = \frac{\langle h(T) \mid h(T) \rangle}{ \langle h^o \mid h^o \rangle} $$
+ $$G(T) = \frac{\langle h(T) \mid h(T) \rangle}{ \langle h^o \mid h^o \rangle}$$
 
-where $$h(T)$$ is the thickness of the film perturbation at $$t=T$$ and $$\langle \bullet \mid \bullet \rangle$$ is the $$L^2$$ inner product over the azimuthal coordinate. The optimization is repeated for many different $$T$$ and $$ \beta $$. 
+where $$h(T)$$ is the thickness of the film perturbation at $$t=T$$ and $$\langle \bullet \mid \bullet \rangle$$ is the $$L^2$$ inner product over the azimuthal coordinate. The optimization is repeated for many different $$T$$ and $$\beta$$. 
 
-We found in particular that, among all the $$ \beta $$, the one leading to the largest $$ G(T) $$ (all $$ T $$ considered) is in good agreement with that measured experimentally in <a href='https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/flow-and-instability-of-thin-films-on-a-cylinder-and-sphere/C6A33F2685E795A19FE24B0DE61B0354'> Takagi & Huppert </a>. That is presumably because in an environment which is not perfectly controlled (which is typically the case in experimental flows), the actual cylinder topography has a component along all $$\beta$$ (and all members of the azimuthal profile basis for a given $$\beta$$). Thereby, by definition, it is natural to expect the most amplified $$ \beta $$ to be the one that emerges among all. 
+We found in particular that, among all the $$\beta$$, the one leading to the largest $$G(T)$$ (all $$T$$ considered) is in good agreement with that measured experimentally in <a href='https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/flow-and-instability-of-thin-films-on-a-cylinder-and-sphere/C6A33F2685E795A19FE24B0DE61B0354'> Takagi & Huppert </a>. That is presumably because in an environment which is not perfectly controlled (which is typically the case in experimental flows), the actual cylinder topography has a component along all $$\beta$$ (and all members of the azimuthal profile basis for a given $$\beta$$). Thereby, by definition, it is natural to expect the most amplified $$\beta$$ to be the one that emerges among all. 
 
 {% endtab %}
 
