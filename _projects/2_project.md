@@ -78,7 +78,7 @@ For a given set of parameters, including the spanwise wavenumber $$ \beta $$, th
 
  $$G(T) = \frac{\langle h(T) \mid h(T) \rangle}{ \langle h^o \mid h^o \rangle} $$
 
-where $$h(T)$$ is the thickness of the film perturbation at $$t=T$$. 
+where $$h(T)$$ is the thickness of the film perturbation at $$t=T$$ and $$\langle \bullet \mid \bullet \rangle$$ is the $$L^2$$ inner product over the azimuthal coordinate. 
 
 {% endtab %}
 
