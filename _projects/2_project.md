@@ -53,7 +53,7 @@ Thin films flowing on substrates are ubiquitous both in nature (e.g., lava flows
 
 However, there are many flow configurations where the flow solution around the ridge cannot be considered as being quasi-static. They typically include flows over curved surfaces, where the forces acting on the advancing ridge vary depending on its spatial location. In turn, the (potentially fast) time-dependency of the base flow makes a modal analysis inappropriate. That is because the eigenmodes generically don't evolve exponentially in time if the base flow over which they have been computed itself is modified in time! The most amplified perturbation at one time instant has no reason to be effective at the following times if the forces at play, and thus the base flow, are different afterwards. 
 
-A nonmodal analysis, on the other hand, supports any form of temporal analysis of the base flow. Considering the Newtonian fluid spreading on a horizontal cylinder under the action of gravity, <a href='https://scholar.google.com/citations?user=l3z_vhYAAAAJ&hl=en'> Gioele Balestra </a>, Mohamed Badaoui, François Gallaire, and I have thus conducted in {% cite Balestra19 %} an optimal transient growth (nonmodal) analysis to find out the temporally most amplified spanwise wavenumber. 
+A nonmodal analysis, on the other hand, supports any form of temporal analysis of the base flow. Considering the Newtonian fluid spreading on a horizontal cylinder under the action of gravity (see Fig. 2a), <a href='https://scholar.google.com/citations?user=l3z_vhYAAAAJ&hl=en'> Gioele Balestra </a>, Mohamed Badaoui, François Gallaire, and I have thus conducted in {% cite Balestra19 %} an optimal transient growth (nonmodal) analysis to find out the temporally most amplified spanwise wavenumber. We considered the optimal perturbations of the initial film thickness and the cylinder topography (see Fig. 2b), respectively.  
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -61,8 +61,10 @@ A nonmodal analysis, on the other hand, supports any form of temporal analysis o
     </div>
 </div>
 <div class="caption">
-    Figure 2. 
+    Figure 2. (a) Sketch of the geometry of the problem considered in {% cite Balestra19 %}. (b) Decomposition of the free-surface elevation \( \overline{H}+\overline{H}^o \) starting from the smooth cylindrical substrate into the draining solution \( H \) and perturbations \( \epsilon(h + h^o) \) for the optimal transient growth over a perturbed substrate with an initially uniform film. The liquid thickness is \( \overline{H} = H + \epsilon h \) whereas \( \overline{H}^o = \epsilon h^o \) is the substrate-topography perturbation.
 </div>
+
+On my side, 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
