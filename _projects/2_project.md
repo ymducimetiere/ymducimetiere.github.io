@@ -86,7 +86,31 @@ We found in particular that, among all the $$\beta$$, the one leading to the lar
 
 {% tab nmg Internally coated horizontal tube %}
 
-{% cite Eghbali23 %} 
+The gravity-driven flow of a liquid film coating the inner solid wall of a horizontal cylinder (see Fig. 4a) exhibits a rich dynamics, some of the observed phenomena being potentially important for industrial and medical applications. Examples include two-phase heat-exchangers and the flow in the airways of human lungs. However, in addition to the presence of a liquid-gas interface, a difficulty that arises in studying this flow is that no steady equilibrium solution can exist. Indeed, under the effect of gravity, the liquid drains around the core bubble, which makes the gaseous bubble move upward under the buoyancy effect. Thereby, as in {% cite Balestra19 %}, the base flow under which to linearize the system of equations is necessarily time-dependent. 
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/hocyl1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 4. (a) Schematic of the liquid film coating the inner side of a horizontal tube and the geometrical parameters considered in {% cite Eghbali23 %}. The thick, solid black line shows the tube wall. The dashed black line represents the perturbed liquid-gas interface. The inset shows the zoomed cross-section of the initial perturbed interface. The gravitational field acts vertically, perpendicular to the tube axis. (b) Linear stability diagram in \( \delta\) vs \( Bo \) plane; the symbol \( \delta\) denotes the (dimensionless) initial film thickness. The blue and red bullets are obtained from the numerical stability analysis. Three base interfaces, corresponding to the final times of the simulations, are shown for \(δ = 0.43\) and \( Bo = [0.05, 0.25, 0.65] \).
+</div>
+
+In {% cite Eghbali23 %}, my colleagues <a href='https://scholar.google.com/citations?user=5gNSVOsAAAAJ&hl=en'> Shahab Eghbali </a>, Edouard Boujo, François Gallaire, and I first proposed a modal stability of the flow (see Fig. 4b), whose results are supposedly relevant as long as the growth rate of the dominant eigenmode is much larger than that of the temporal variation of the base flow (i.e., under the quasi-static approximation). We explored the effect of the $$Bo$$ number (comparing the strength of gravitational over surface tension forces) and the $$Oh$$ number (comparing the strength of viscous over inertial forces). For the reasons developed in the article, we found that increasing the $$Bo$$ number had a clear stabilizing effect on the flow. Changing the $$Oh$$ number, on the contrary, only had a minor influence. 
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/hocyl2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 5. For \( Bo=0.65 \). (a) Isocontours of the transient gain \( G \) in the \(k-T\) plane with \( T \) the temporal horizon and \( k \) the wavenumber along the coordinate \( z \) along the tube. Only the region \(G \geq 1 \) is shown. (b) Along the thin dashed lines in (a), comparison of the transient gain (full line) with its approximation using the dispersion curve only (dotted line), for \(k = 0.2\) and \(k = 0.5\) (maximum gain highlighted by a circle and a diamond, respectively). 
+</div>
+
+We also found that the quasi-static approximation was valid only for large times, which makes the modal analysis valid there (note that, in any case, a modal analysis is conclusive only in the limit $$t \rightarrow \infty $$ for non-normal operators!). At the early times of the flow, however, a nonmodal transient growth analysis was needed, as it can rigorously account for the temporal variation of the base flow. The transient growth analysis focused mostly on the stable region of the parameter space, for it reveals the potential for the flow to experience a subcritical bifurcation there. We found that, for all the considered parameters, the maximum possible transient gain (i.e., the ratio between the energy of the perturbation at some temporal horizon divided by that of the initial condition which seeded it) remained of $$O(1)$$ (see Fig. 5). Therefore, for this particular flow, the modal stability analysis seemed to provide a sufficiently complete description if the linear dynamics!
+
+
 
 {% endtab %}
 
