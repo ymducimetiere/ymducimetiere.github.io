@@ -38,7 +38,7 @@ However, laboratory observations in confined geometries are often compared to st
     Figure 1. Schematic of the confined duct flow configuration (dimensional variables) studied in {% cite Ducimetiere21 %}.
 </div>
 
-Mostly
+In broad outline, the presence of the lateral duct walls has a stabilizing effect, except in a negligibly small region of the (limited) parameter space that we have considered (see Fig. 2a). There, a tight confinement is a necessary ingredient for the destabilization of an eigenmode whose spatial structure resembles a  &ldquo; twisted &rdquo; version of the Kelvin-Helmotz one (see Fig. 2b).   
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-9 mt-3 mt-md-0">
@@ -49,8 +49,6 @@ Mostly
     Figure 2. (a). Growth rate \( \sigma_r \) of the most unstable eigenmode of the spectrum for the flow considered in Fig. 1, where the spanwise profile of the base flow is a Poiseuille profile. Four different aspect ratios \(B = W/H \) (see Fig. 1 for the notations) are considered. Solid and dashed lines stand for the 2D problem, accounting for the lateral confinement, and lighter shades of grey correspond to higher \( B \in [1, 3, 5] \). Dash-dotted lines mark the 1D problem where \( B \rightarrow \infty \). A marker, different for each \( B \), indicates the maximum growth rate. The dotted arrow refers to (b) the unstable eigenmode inherently linked to a tight lateral confinement and resembling a &ldquo; twisted &rdquo; Kelvin-Helmholtz mode. Yellow and magenta surfaces are isocontours of equal and opposite values of the \(z\)-component of the vorticity. 
 </div>
 
-
-In broad outline, the presence of the lateral duct walls has a stabilizing effect, except in a negligibly small region of the (limited) parameter space that we have considered (see Fig. 2a). There, a tight confinement is a necessary ingredient for the destabilization of an eigenmode whose spatial structure resembles a  &ldquo; twisted &rdquo; version of the Kelvin-Helmotz one (see Fig. 2b).   
 
 {% endtab %}
 {% endtabs %}
