@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The paper &ldquo; <a href='https://www.science.org/doi/10.1126/science.261.5121.578'> Nonmodal amplitude equations </a> &rdquo;, co-authored with my former advisor François Gallaire, is now published in Physical Review E ! We are also very honored to have been selected as an  <b> Editors' suggestion </b> !
+The paper &ldquo; <a href='https://journals.aps.org/pre/abstract/10.1103/pvn5-twfj'> Nonmodal amplitude equations </a> &rdquo;, co-authored with my former advisor François Gallaire, is now published in Physical Review E ! We are also very honored to have been selected as an  <b> Editors' suggestion </b> !
