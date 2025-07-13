@@ -67,7 +67,7 @@ A nonmodal analysis, on the other hand, supports any form of temporal analysis o
 For a given set of parameters, including the spanwise wavenumber $$\beta$$, my contribution to the article was to derive the algorithm shown in Fig. 3. 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/lincyl2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -91,8 +91,8 @@ We found in particular that, among all the $$\beta$$, the one leading to the lar
 
 The gravity-driven flow of a liquid film coating the inner solid wall of a horizontal cylinder (see Fig. 4a) exhibits a very rich dynamics, and some of the observed phenomena are potentially important for industrial and medical applications. Examples include two-phase heat-exchangers and the flow in the airways of human lungs. However, in addition to the presence of a liquid-gas interface, a difficulty that arises in studying this flow is its inherent non-stationarity. Indeed, under the effect of gravity, the liquid is constantly draining around the core bubble, which makes the gaseous bubble move upward under the buoyancy effect. Thereby, the base flow under which to linearize the system of equations is necessarily time-dependent. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/hocyl1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -102,8 +102,8 @@ The gravity-driven flow of a liquid film coating the inner solid wall of a horiz
 
 In {% cite Eghbali23 %}, my colleagues <a href='https://scholar.google.com/citations?user=5gNSVOsAAAAJ&hl=en'> Shahab Eghbali </a>, Edouard Boujo, François Gallaire, and I first proposed a modal stability of the flow (see Fig. 4b), whose results are supposedly relevant as long as the growth rate of the dominant eigenmode is much larger than that of the temporal variation of the base flow (i.e., under the quasi-static approximation). We explored the effect of the $$Bo$$ number (comparing the strength of gravitational over surface tension forces) and the $$Oh$$ number (comparing the strength of viscous over inertial forces). For the reasons developed in the article, we found that increasing the $$Bo$$ number had a clear stabilizing effect on the flow. Changing the $$Oh$$ number, on the contrary, only had a minor influence. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/hocyl2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
