@@ -3,7 +3,7 @@ layout: page
 title: Towards a weakly nonlinear nonmodal stability theory
 description: 
 img: assets/img/wnn.png
-importance: 1
+importance: 2
 category: 
 related_publications: true
 ---
