@@ -26,7 +26,7 @@ In the previous page, the developments and conclusions were within the framework
 This calls for the study of nonlinear effects on nonmodal flow responses, and this was the topic of my PhD thesis {% cite DucimetiereTH24 %} ! 
 
 
-In doing so, the first step was to notice that nonmodal tools, solving for the maximum possible response-to-forcing amplification (typically by performing a svd decomposition), makes it possible to construct an orthonormal basis for the structure of the flow excitation and its response. The respective contribution, to the induced norm of the response, of each element of this basis can then be prioritized according to its associated (scalar) &ldquo; gain &rdquo;. As an example, the linear response $$\hat{u}_h \exp{\ti \omega_o t} + c.c. $$ to a harmonic forcing $$\hat{f}_h \exp{\ti \omega_o t} + c.c. $$ is such that   
+In doing so, the first step was to notice that nonmodal tools, solving for the maximum possible response-to-forcing amplification (typically by performing a svd decomposition), makes it possible to construct an orthonormal basis for the structure of the flow excitation and its response. The respective contribution, to the induced norm of the response, of each element of this basis can then be prioritized according to its associated (scalar) &ldquo; gain &rdquo;. As an example, the linear response $$\hat{u}_h \exp{i \omega_o t} + c.c. $$ to a harmonic forcing $$\hat{f}_h \exp{i \omega_o t} + c.c. $$ is such that   
 
 $$\hat{u}_h = R(\omega_o) \hat{f}_h = \sum_{j\geq 1} G_j \check{u}_j \langle \check{f}_j \mid \hat{f}_h \rangle $$, 
 
