@@ -30,7 +30,7 @@ In doing so, the first step was to notice that nonmodal tools, solving for the m
 
 $$\hat{u}_h = R(\omega_o) \hat{f}_h = \sum_{j\geq 1} G_j \check{u}_j \langle \check{f}_j \mid \hat{f}_h \rangle $$, 
 
-where the pair $$(\check{u}_j,\check{f}_j)$$ is the $$j$$th singular modes pair of the resolvent operator $$R(\omega_o)$$, normalized as $$||\check{u}_j||=||\check{f}_j||=1$$ for every $j$. The scalar $$G_j$$ is the associated gain, such that $$G_j\check{u}_j = R(\omega_o)\check{f}_j$$. <br>
+where the pair $$(\check{u}_j,\check{f}_j)$$ is the $$j$$th singular modes pair of the resolvent operator $$R(\omega_o)$$, normalized as $$||\check{u}_j||=||\check{f}_j||=1$$ for every $$j$$. The scalar $$G_j$$ is the associated gain, such that $$G_j\check{u}_j = R(\omega_o)\check{f}_j$$. <br>
 In fluid mechanics, it is often the case that the responses to only a few of these forcing structures dominate the linear response (e.g., $$G_1 \gg G_2 > ...$$ in the equation above), a property referred to as the low-rank approximation. We refer to figures 2 and 3 for an example. 
 
 <div class="row justify-content-sm-center">
