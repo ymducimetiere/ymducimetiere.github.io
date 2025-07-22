@@ -90,7 +90,7 @@ where $$A$$ is the amplitude of $$\check{u}_1$$, the leading-order harmonic resp
 </div>
 
 
-Note that, with <a href='https://eboujo.wordpress.com/'> Edouard Boujo </a>, we have also shown in {% cite Ducimetiere22a %},  {% cite Ducimetiere22b %} and {% cite Ducimetiere23 %} that these nonmodal amplitudes equation for the response to a harmonic forcing, a stochastic forcing, and an initial perturbation, respectively, can also be derived using multiple scale expansions. <br>
+With <a href='https://eboujo.wordpress.com/'> Edouard Boujo </a>, we have also shown in {% cite Ducimetiere22a %},  {% cite Ducimetiere22b %} and {% cite Ducimetiere23 %} that these nonmodal amplitudes equation for the response to a harmonic forcing, a stochastic forcing, and an initial perturbation, respectively, can also be derived using multiple scale expansions. <br>
 Specifically, we have shown that the inverse of the relevant input/output operator, due to its non-normality, could be made singular with a very small perturbation (as small as $$1/G_1$$), even if all the eigenvalues of the original operator have a large damping rate. The associated kernel is along the optimal response (i.e., the most amplified one, associated with $$G_1$$), since the singularised operator is the original one but projected into the subspace spanned by the sub-optimal responses. This operator perturbation can be encompassed in an otherwise classical multiple-scale asymptotic expansion, closed by imposing compatibility conditions. Again, the leading order is entirely contained in the optimal subspace, whereas the singularised operator, for the contributions in the sub-optimal one, determines the higher-order fields in the expansions. 
 
 
