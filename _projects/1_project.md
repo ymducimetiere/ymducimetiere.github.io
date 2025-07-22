@@ -26,7 +26,7 @@ In the previous page, the developments and conclusions were within the framework
 This calls for the study of nonlinear effects on nonmodal flow responses, and this was the topic of my PhD thesis {% cite DucimetiereTH24 %} ! 
 
 
-In doing so, the first step was to notice that nonmodal tools, solving for the maximum possible response-to-forcing amplification (typically by performing a svd decomposition), makes it possible to construct an orthonormal basis for the structure of the flow excitation and its response. The respective contribution, to the induced norm of the response, of each element of this basis can then be prioritized according to its associated (scalar) &ldquo; gain &rdquo;. As an example, the linear response $$\hat{u}_h \exp{i \omega_o t} + c.c. $$ to a harmonic forcing $$\hat{f}_h \exp{i \omega_o t} + c.c. $$ is such that   
+In doing so, the first step was to notice that nonmodal tools, solving for the maximum possible response-to-forcing amplification (typically by performing a svd decomposition), makes it possible to construct an orthonormal basis for the structure of the flow excitation and its response. The respective contribution, to the induced norm of the response, of each element of this basis can then be prioritized according to its associated (scalar) &ldquo; gain &rdquo;. As an example, the linear response $$\hat{u}_h \exp{(i \omega_o t)} + c.c. $$ to a harmonic forcing $$\hat{f}_h \exp{(i \omega_o t)} + c.c. $$ is such that   
 
 $$\hat{u}_h = R(\omega_o) \hat{f}_h = \sum_{j\geq 1} G_j \check{u}_j \langle \check{f}_j \mid \hat{f}_h \rangle $$, 
 
@@ -44,7 +44,7 @@ In fluid mechanics, it is often the case that the responses to only a few of the
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-9 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/wnn3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -81,7 +81,7 @@ where $$A$$ is the amplitude of $$\check{u}_1$$, the leading-order harmonic resp
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-9 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/wnn5.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -90,21 +90,15 @@ where $$A$$ is the amplitude of $$\check{u}_1$$, the leading-order harmonic resp
 </div>
 
 
-Note that, with <a https://eboujo.wordpress.com/ '> Edouard Boujo </a>, we have also shown in {% cite Ducimetiere22a %},  {% cite Ducimetiere22b %} and {% cite Ducimetiere23 %} that these nonmodal amplitudes equation for the response to a harmonic forcing, a stochastic forcing, and an initial perturbation, respectively, can also be derived using multiple scale expansions. <br>
+Note that, with <a href='https://eboujo.wordpress.com/'> Edouard Boujo </a>, we have also shown in {% cite Ducimetiere22a %},  {% cite Ducimetiere22b %} and {% cite Ducimetiere23 %} that these nonmodal amplitudes equation for the response to a harmonic forcing, a stochastic forcing, and an initial perturbation, respectively, can also be derived using multiple scale expansions. <br>
 Specifically, we have shown that the inverse of the relevant input/output operator, due to its non-normality, could be made singular with a very small perturbation (as small as $$1/G_1$$), even if all the eigenvalues of the original operator have a large damping rate. The associated kernel is along the optimal response (i.e., the most amplified one, associated with $$G_1$$), since the singularised operator is the original one but projected into the subspace spanned by the sub-optimal responses. This operator perturbation can be encompassed in an otherwise classical multiple-scale asymptotic expansion, closed by imposing compatibility conditions. Again, the leading order is entirely contained in the optimal subspace, whereas the singularised operator, for the contributions in the sub-optimal one, determines the higher-order fields in the expansions. 
 
 
 
-But some work remains to be done! I propose below a list of perspectives which I am looking forward to working on in the future (my current postdoc is concerned with another topic) 
+But some work remains to be done! I propose below two projects which I am looking forward to working on in the future (my current postdoc is concerned with another topic) 
+
+(i) The nonmodal amplitude equations, at least in their current forms (the simplest possible), were found to mostly fail to predict subcritical transitions of the flow as the forcing amplitude was increased to too large values, causing the nonlinear flow response to transit to a state structurally completely different from the linear one. That is because, in our approach, the weakly nonlinear response is sought as an asymptotic expansion where only the optimal response is included at leading order, and thus the former is condemned to remain structurally close to the latter. In other terms, our approach, in its current implementation, has very little freedom on the spatial structure! <br>
+While the latter feature is what makes the reduction to a very low-dimensional system possible, it is indeed problematic in the subcritical transition scenario. There, the flow may go into a nonlinear state that is spatially much richer than that around which the expansion is performed. This enrichment may involve many suboptimal structures, but also many additional wave-number pairs (and not just harmonics of the fundamental pair, already included).
 
 
-
-Nevertheless, precisely because of the perturbative nature of the method, where the leading-order is restricted to the low-dimensional dominant nonmodal subspace and/or to a low number of spatial or temporal harmonics, we shall see that the derived amplitude equations can be too simplistic to
-predict subcritical transitions of the flow. Some additional work is required here!
-
-
- <ul> 
-<li> The nonmodal amplitude equations, at least in their current forms (the simplest possible), were found to mostly fail to predict subcritical transitions of the flow as the forcing amplitude was increased to too large values, causing the nonlinear flow response to transit to a state structurally completely different from the linear one. That is because, in our approach, the weakly nonlinear response is sought as an asymptotic expansion where only the optimal response is included at leading order, and thus the former is condemned to remain structurally close to the latter. In other terms, our approach, in its current implementation, has very little freedom on the spatial structure! <br>
-While the latter feature is what makes the reduction to a very low-dimensional system possible, it is indeed problematic in the subcritical transition scenario. There, the flow may go into a nonlinear state that is spatially much richer than that around which the expansion is performed. This enrichment may involve many suboptimal structures, but also many additional wave-number pairs (and not just harmonics of the fundamental pair, already included). </li> 
-<li> I am hopeful that a precise link between the reduction procedure we have proposed and the parameterization method could be drawn, at least for the harmonic forcing problem. Note that this link is not <i> a priori </i> obvious, for the reduction we have proposed is not performed in an eigensubspace, which, as we have seen, often cannot be chosen low-dimensional and still yield a good description of the nonmodal response. In particular, in figure 3, the locus of the weakly nonlinear response (dashed line) might be seen as analogous to a center manifold for the modal paradigm, whereas $$V_h$$ would be analogous to the center eigenspace (the former being tangent to the latter in the linear regime). Thereby, adopting, for instance, the graph style of the parameterization method, and seeking the part of the nonlinear correction of solution which is contained in the suboptimals subspace, as a graph over the amplitude along the optimal subspace, could be another manner to derive Eq. \eqref{eq:1}. </li> 
-</ul> 
+(ii) I am hopeful that a precise link between the reduction procedure we have proposed and the parameterization method could be drawn, at least for the harmonic forcing problem. Note that this link is not <i> a priori </i> obvious, for the reduction we have proposed is not performed in an eigensubspace, which, as we have seen, often cannot be chosen low-dimensional and still yield a good description of the nonmodal response. In particular, in figure 3, the locus of the weakly nonlinear response (dashed line) might be seen as analogous to a center manifold for the modal paradigm, whereas $$V_h$$ would be analogous to the center eigenspace (the former being tangent to the latter in the linear regime). Thereby, adopting, for instance, the graph style of the parameterization method, and seeking the part of the nonlinear correction of solution which is contained in the suboptimals subspace $$V_1^{\perp}$$, as a graph over the amplitude along the optimal subspace $$V_1$$, could be another manner to derive Eq. \eqref{eq:1}.
