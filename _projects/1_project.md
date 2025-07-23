@@ -16,7 +16,7 @@ Thereby,
 
 $$ ||\hat{u}_h||^2 = \sum_{j\geq 1} \frac{ ||q_j||^2 }{|i\omega_o - \sigma_j|^2} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 } + \sum_{j \geq 1} \sum_{k\neq j} \frac{ \langle q_j \mid  q_k \rangle }{(i\omega_o - \sigma_j)^*(i\omega_o - \sigma_k)} \frac{\langle q^{\dagger}_j \mid \hat{f}_h \rangle^* \langle q^{\dagger}_k \mid \hat{f}_h \rangle }{\langle q^{\dagger}_j \mid q_j \rangle^* \langle q^{\dagger}_k \mid q_k \rangle}.$$
 
-Now, if the linearised operator is non-normal, then remember that the eigenmodes do not form an orthogonal set. Consequently, the double sum term in the expression above, which involves eigenmode-eigenmode interactions through the inner product  $$\langle q_j \mid  q_k \rangle$$, has no reason to vanish if $$\hat{f}_h$$ projects over more than one adjoint mode! In other words, the energy of the harmonic response, $$ ||\hat{u}_h||^2 $$, is determined by a possibly enormous number of eigenmode-eigenmode interactions. Again, the eigenmodes thus form a very inefficient basis, in the sense that the harmonic response is inefficiently described by a single or even a few of them!
+Now, if the linearised operator is non-normal, then remember that the eigenmodes do not form an orthogonal set. Consequently, the double sum term in the expression above, which involves eigenmode-eigenmode interactions through the inner product  $$\langle q_j \mid  q_k \rangle$$, has no reason to vanish if $$\hat{f}_h$$ projects over more than one adjoint mode (which is generically the case) ! In other words, the energy of the harmonic response, $$ ||\hat{u}_h||^2 $$, is determined by a possibly enormous number of eigenmode-eigenmode interactions. Again, the eigenmodes thus form a very inefficient basis, in the sense that the harmonic response is inefficiently described by a single or even a few of them!
 
 That is why these responses are said to be &ldquo; nonmodal &rdquo; : to insist on the inefficiency of the eigenbasis to describe them. 
 
@@ -35,18 +35,17 @@ In the previous page, the developments and conclusions were within the framework
 This calls for the study of nonlinear effects on nonmodal flow responses, which was the topic of my PhD thesis {% cite DucimetiereTH24 %}. 
 
 
-In doing so, the first step was to notice that nonmodal tools, solving for the maximum possible response-to-forcing amplification (typically by performing a svd decomposition), makes it possible to construct an orthonormal basis for the structure of the flow excitation and its response. The respective contribution to the induced norm of the response of each element of this basis can then be prioritized according to its associated (scalar) &ldquo; gain &rdquo;. As an example, the harmonic response introduced above can be rewritten   
+In doing so, the first step was to notice that nonmodal tools, solving for the maximum possible response-to-forcing amplification (typically by performing a svd decomposition), makes it possible to construct an orthonormal basis for the structure of the flow excitation and its response. The respective contribution to the induced norm of the response of each element of this basis can then be prioritized according to its associated (scalar) &ldquo; gain &rdquo;. For these reasons, as well as the orthonormality property, these new bases are much more efficient than the direct and adjoint eigenmodes bases. 
+
+As an example, the harmonic response introduced above can be rewritten   
 
 $$\hat{u}_h  = \sum_{j\geq 1} G_j \check{u}_j \langle \check{f}_j \mid \hat{f}_h \rangle $$, 
 
-where the pair $$(\check{u}_j,\check{f}_j)$$ is the $$j$$th singular modes pair of the resolvent operator $$R(\omega_o)$$, normalized as $$||\check{u}_j||=||\check{f}_j||=1$$ for every $$j$$. The scalar $$G_j$$ is the associated gain, such that $$G_j\check{u}_j = R(\omega_o)\check{f}_j$$. 
+where the pair $$(\check{u}_j,\check{f}_j)$$ is the $$j$$th singular modes pair of the resolvent operator $$R(\omega_o)$$, normalized as $$||\check{u}_j||=||\check{f}_j||=1$$ for every $$j$$. The scalar $$G_j$$ is the associated gain, such that $$G_j\check{u}_j = R(\omega_o)\check{f}_j$$. Both the $$\{ \check{u}_j \}$$ and $$\{\check{f}_j \}$$ families have the desired property to be orthonormal, such that $$||\hat{u}_h||$$ is now much more simply expressed 
 
+$$|| \hat{u}_h ||^2 = \sum_{j\geq 1} G^2_j |\langle \check{f}_j \mid \hat{f}_h \rangle|^2. $$
 
-
-
-
-
-In fluid mechanics, it is often the case that the responses to only a few of these forcing structures dominate the linear response (e.g., $$G_1 \gg G_2 > ...$$ in the equation above), a property referred to as the low-rank approximation. We refer to figures 2 and 3 for an example. 
+Furthermore, in fluid mechanics, it is often the case that the responses to only a few of these forcing structures dominate the linear response, a property referred to as the low-rank approximation. We refer to figures 2 and 3 for an example.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-9 mt-3 mt-md-0">
@@ -54,7 +53,7 @@ In fluid mechanics, it is often the case that the responses to only a few of the
     </div>
 </div>
 <div class="caption">
-    Figure 2. .
+    Figure 2. (a) Sketch of the two-dimensional flow over a backward-facing step (BFS), with a fully developed parabolic profile of unit maximum centreline velocity at the inlet. (b) Corresponding streamwise (\( x \)) component of the optimal harmonic forcing structure \( Re(\hat{f}_1) \) at \( Re=500 \)  and at the optimal forcing frequency \( \omega_o = 0.47 \) (top) and streamwise component of the associated response \( Re(\hat{u}_1) \). 
 </div>
 
 
@@ -64,11 +63,15 @@ In fluid mechanics, it is often the case that the responses to only a few of the
     </div>
 </div>
 <div class="caption">
-    Figure 3. .
+    Figure 3. For the BFS flow sketched in Fig. 2. Top: optimal linear harmonic gain \(G_1\) (full line). The first suboptimal gain \(G_2\) is also reported as the dashed-dotted line. Gains are shown as a function of the forcing frequency. Bottom: spectrum of this same flow in the complex plane (each dot an eigenvalue). The frequency ranges on the \(x\)-axis are the same for both the top and the bottom frames.
 </div>
 
+The low-rank property is of central importance! Let us consider, for instance, that, in the equation above, $$G_1 \gg G_2 > ...$$, then, 
 
-In other words, projecting the linear response in the subspace spanned by the few dominant nonmodal responses extracts the leading-order response. Indeed, if in the equation above, $$G_1 \gg G_2 > ...$$, then, for a generic $$\hat{f}_h$$, the harmonic response $$\hat{u}_h$$ is well approximated by $$\check{u}_1$$ alone. This means that, at least in the linear regime, the Navier-Stokes equations can be rigorously reduced to a low-dimensional system of equations for the coordinates within this subspace. 
+$$ \hat{u}_h  \approx G_1 \check{u}_1 \langle \check{f}_1 \mid \hat{f}_h \rangle. $$
+
+
+which means that, for a generic $$\hat{f}_h$$, the harmonic response $$\hat{u}_h$$ is well approximated by $$\check{u}_1$$ alone! In other words, projecting the linear response in the subspace spanned by the few dominant nonmodal responses extracts the leading-order response. In turn, this implies that, at least in the linear regime, it is justified to reduce the Navier-Stokes equations to a low-dimensional system for the coordinates within this subspace. 
 
 In {% cite Ducimetiere25 %}, François and I argue that projecting the flow response in the subspace spanned by the few dominant linear nonmodal responses also extracts the leading-order response in a weakly nonlinear regime (see figure 4). 
 
@@ -78,7 +81,7 @@ In {% cite Ducimetiere25 %}, François and I argue that projecting the flow resp
     </div>
 </div>
 <div class="caption">
-    Figure 4. .
+    Figure 4. Schematic representation of the weakly nonlinear harmonic response ˆU (ωo) (blue arrows, one for each forcing amplitude) in the phase space. The phase space is shown here in the orthonormal basis formed by the \(\{ \check{u}_j \}_{j\geq 1}\) family. The subspace \(V_h = Span(\hat{u}_h)\), where the linear response \(\hat{u}_h\) to some arbitrary harmonic forcing \(\hat{f}_h\) is represented in red. By hypothesis, the contribution to \(\hat{u}_h\), which is spanned by the suboptimal responses, i.e., in \(V_1^{\perp} = Span(\check{u}_j \}_{j\geq 2})\) smaller than that along the optimal one \(\check{u}_1\). Thereby \(V_h\) makes only a small angle with the subspace \(V_1 = Span(\check{u}_1)\). For vanishing harmonic forcing amplitude, the weakly nonlinear harmonic response must be tangent to \(V_h\). However, as the forcing amplitude is increased, they become increasingly misaligned (please see the evolution of the blue arrows for increasing forcing amplitude). Consequently, as the forcing amplitude is increased, the locus of the weakly nonlinear responses (blue dashed line) is curved in the phase space. Yet, by continuity, the weakly nonlinear response still makes a small angle with the subspace \(V_1\), such that its projection on V1 still gives the leading-order response.
 </div>
 
 Thereby, we could derive a low-dimensional system of equations for the amplitudes of the dominant nonmodal responses, which incorporate the leading-order nonlinearities of the Navier-Stokes equations (They are valid in a regime where the error resulting from neglecting the higher-order nonlinearities is small according to the chosen induced norm.) Owing to their simplicity, such nonmodal amplitude equations were found to bring insight into the weakly nonlinear mechanisms that modify the gains as one increases the amplitude of the initial condition, the harmonic forcing, or a stochastic forcing, respectively.
@@ -100,7 +103,7 @@ where $$A$$ is the amplitude of $$\check{u}_1$$, the leading-order harmonic resp
     </div>
 </div>
 <div class="caption">
-    Figure 5. .
+    Figure 5. Harmonic gain for the BFS (see Fig. 2) flow subjected to the (linear) optimal forcing structure, i.e., \(\hat{f}_h = \check{f}_1\). The gain is obtained from a linear (dotted line), a leading-order weakly nonlinear (from {% cite Ducimetiere25 %}) and a fully nonlinear (DNS, diamond markers) approach. Darker nuances correspond to larger forcing amplitudes \(\phi\). 
 </div>
 
 
@@ -109,10 +112,10 @@ Specifically, we have shown that the inverse of the relevant input/output operat
 
 
 
-But some work remains to be done! I propose below two projects which I am looking forward to working on in the future (my current postdoc is concerned with another topic) 
+But a lot of work remains to be done! I propose below two projects which I am looking forward to working on in the future (my current postdoc is concerned with another topic) 
 
 (i) The nonmodal amplitude equations, at least in their current forms (the simplest possible), were found to mostly fail to predict subcritical transitions of the flow as the forcing amplitude was increased to too large values, causing the nonlinear flow response to transit to a state structurally completely different from the linear one. That is because, in our approach, the weakly nonlinear response is sought as an asymptotic expansion where only the optimal response is included at leading order, and thus the former is condemned to remain structurally close to the latter. In other terms, our approach, in its current implementation, has very little freedom on the spatial structure! <br>
 While the latter feature is what makes the reduction to a very low-dimensional system possible, it is indeed problematic in the subcritical transition scenario. There, the flow may go into a nonlinear state that is spatially much richer than that around which the expansion is performed. This enrichment may involve many suboptimal structures, but also many additional wave-number pairs (and not just harmonics of the fundamental pair, already included).
 
 
-(ii) I am hopeful that a precise link between the reduction procedure we have proposed and the parameterization method could be drawn, at least for the harmonic forcing problem. Note that this link is not <i> a priori </i> obvious, for the reduction we have proposed is not performed in an eigensubspace, which, as we have seen, often cannot be chosen low-dimensional and still yield a good description of the nonmodal response. In particular, in figure 3, the locus of the weakly nonlinear response (dashed line) might be seen as analogous to a center manifold for the modal paradigm, whereas $$V_h$$ would be analogous to the center eigenspace (the former being tangent to the latter in the linear regime). Thereby, adopting, for instance, the graph style of the parameterization method, and seeking the part of the nonlinear correction of solution which is contained in the suboptimals subspace $$V_1^{\perp}$$, as a graph over the amplitude along the optimal subspace $$V_1$$, could be another manner to derive Eq. \eqref{eq:1}.
+(ii) I am hopeful that a precise link between the reduction procedure we have proposed and the parameterization method could be drawn, at least for the harmonic forcing problem. Note that this link is not <i> a priori </i> obvious, for the reduction we have proposed is not performed in an eigensubspace, which, as we have seen, often cannot be chosen low-dimensional and still yield a good description of the nonmodal response. In particular, in figure 3, the locus of the weakly nonlinear response (dashed line) might be seen as analogous to a center manifold for the modal paradigm, whereas $$V_h$$ would be analogous to the center eigenspace (the former being tangent to the latter in the linear regime). Thereby, adopting, for instance, the graph style of the parameterization method, and seeking the part of the nonlinear correction of solution which is contained in the suboptimals subspace $$V_1^{\perp}$$, as a graph over the amplitude along the optimal subspace $$V_1$$, could be another manner to derive Eq. \eqref{eq:1}. Being able to derive the same equation by using the parameterization method would, from a fundamental perspective, possibly make available the subsequent theorem of existence. From a practical implementation one, it would perhaps make possible an automated derivation of the reduced-order systems, which is very useful when including several amplitudes or going to higher orders, for in these two situations, the calculations become quickly tedious to perform by hand.   
