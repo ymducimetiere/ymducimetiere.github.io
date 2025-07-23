@@ -15,9 +15,9 @@ $$ \hat{u}_h = R(\omega_o) \hat{f}_h = \sum_{j \geq 1} \frac{ q_j }{i\omega_o - 
 Thereby,
 
 $$ ||\hat{u}_h||^2 = \langle \hat{u}_h \mid \hat{u}_h \rangle = \\
-\sum_{j\geq 1} \frac{ ||q_j||^2 }{|i\omega_o - \sigma_j|^2} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 } + \sum_{j \geq 1} \sum_{k\neq j} \frac{ \langle q_j \mid  q_k \rangle }{(i\omega_o - \sigma_j)^*(i\omega_o - \sigma_k)} \frac{\langle q^{\dagger}_j \mid \hat{f}_h \rangle^* langle q^{\dagger}_k \mid \hat{f}_h \rangle }{\langle q^{\dagger}_k \mid q_k \rangle^* }.$$
+\sum_{j\geq 1} \frac{ ||q_j||^2 }{|i\omega_o - \sigma_j|^2} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 } + \sum_{j \geq 1} \sum_{k\neq j} \frac{ \langle q_j \mid  q_k \rangle }{(i\omega_o - \sigma_j)^*(i\omega_o - \sigma_k)} \frac{\langle q^{\dagger}_j \mid \hat{f}_h \rangle^* \langle q^{\dagger}_k \mid \hat{f}_h \rangle }{\langle q^{\dagger}_k \mid q_k \rangle^* }.$$
 
-Now, if the linearised operator is non-normal, then remember that the eigenmodes do not form an orthogonal set. Consequently, the double sum term in the expression above, which involves eigenmode-eigenmode interactions through the inner product  $$\langle q_j \mid  q_k \rangle$$, has no reason to vanish if $$\hat{f}_h$$ projects over more than one adjoint mode! In other words, the energy of the harmonic response, $$||\hat{u}_h||^2 $$, is determined by a possibly enormous number of eigenmode-eigenmode interactions. Again, the eigenmodes thus form a very inefficient basis, in the sense that the harmonic response is inefficiently described by a single or even a few of them!
+Now, if the linearised operator is non-normal, then remember that the eigenmodes do not form an orthogonal set. Consequently, the double sum term in the expression above, which involves eigenmode-eigenmode interactions through the inner product  $$\langle q_j \mid  q_k \rangle$$, has no reason to vanish if $$\hat{f}_h$$ projects over more than one adjoint mode! In other words, the energy of the harmonic response, $$ ||\hat{u}_h||^2 $$, is determined by a possibly enormous number of eigenmode-eigenmode interactions. Again, the eigenmodes thus form a very inefficient basis, in the sense that the harmonic response is inefficiently described by a single or even a few of them!
 
 That is why these responses are said to be &ldquo; nonmodal &rdquo; : to insist on the inefficiency of the eigenbasis to describe them. 
 
@@ -29,18 +29,24 @@ In the previous page, the developments and conclusions were within the framework
     </div>
 </div>
 <div class="caption">
-    Figure 1. Cartoon representation of nonlinearity and non-normality, illustrated in the time domain (a) and frequency domain (b), for a linearly stable system; the least stable eigenvalue \( \sigma_1 \) of the eigenspectrum in (c) indeed has a negative growth rate. (a) In the linear regime, the amplitude of the perturbations eventually decays like \( \exp{( \sigma_{1,r} t)} \). Non-normal systems can experience a very large transient growth. Nonlinearity may be stabilising or destabilising. (b) Normal systems subject to external forcing respond preferentially at frequency \( \sigma_{1,i} \). Non-normal systems can respond at different frequencies, with an amplification much larger than predicted by σ1,r. Nonlinearity may be stabilising or destabilising.
+    Figure 1. Cartoon representation of nonlinearity and non-normality, illustrated in the time domain (a) and frequency domain (b), for a linearly stable system; the least stable eigenvalue \( \sigma_1 \) of the eigenspectrum in (c) indeed has a negative growth rate. (a) In the linear regime, the amplitude of the perturbations eventually decays like \( \exp{( \sigma_{1,r} t)} \). Non-normal systems can experience a very large transient growth. Nonlinearity may be stabilising or destabilising. (b) Normal systems subject to external forcing respond preferentially at frequency \( \sigma_{1,i} \). Non-normal systems can respond at different frequencies, with an amplification much larger than predicted by  \( \sigma_{1,r} \).. Nonlinearity may be stabilising or destabilising.
 </div>
 
 
 This calls for the study of nonlinear effects on nonmodal flow responses, which was the topic of my PhD thesis {% cite DucimetiereTH24 %}. 
 
 
-In doing so, the first step was to notice that nonmodal tools, solving for the maximum possible response-to-forcing amplification (typically by performing a svd decomposition), makes it possible to construct an orthonormal basis for the structure of the flow excitation and its response. The respective contribution to the induced norm of the response of each element of this basis can then be prioritized according to its associated (scalar) &ldquo; gain &rdquo;. As an example,    
+In doing so, the first step was to notice that nonmodal tools, solving for the maximum possible response-to-forcing amplification (typically by performing a svd decomposition), makes it possible to construct an orthonormal basis for the structure of the flow excitation and its response. The respective contribution to the induced norm of the response of each element of this basis can then be prioritized according to its associated (scalar) &ldquo; gain &rdquo;. As an example, the harmonic response introduced above can be rewritten   
 
 $$\hat{u}_h  = \sum_{j\geq 1} G_j \check{u}_j \langle \check{f}_j \mid \hat{f}_h \rangle $$, 
 
-where the pair $$(\check{u}_j,\check{f}_j)$$ is the $$j$$th singular modes pair of the resolvent operator $$R(\omega_o)$$, normalized as $$||\check{u}_j||=||\check{f}_j||=1$$ for every $$j$$. The scalar $$G_j$$ is the associated gain, such that $$G_j\check{u}_j = R(\omega_o)\check{f}_j$$. <br>
+where the pair $$(\check{u}_j,\check{f}_j)$$ is the $$j$$th singular modes pair of the resolvent operator $$R(\omega_o)$$, normalized as $$||\check{u}_j||=||\check{f}_j||=1$$ for every $$j$$. The scalar $$G_j$$ is the associated gain, such that $$G_j\check{u}_j = R(\omega_o)\check{f}_j$$. 
+
+
+
+
+
+
 In fluid mechanics, it is often the case that the responses to only a few of these forcing structures dominate the linear response (e.g., $$G_1 \gg G_2 > ...$$ in the equation above), a property referred to as the low-rank approximation. We refer to figures 2 and 3 for an example. 
 
 <div class="row justify-content-sm-center">
@@ -61,7 +67,6 @@ In fluid mechanics, it is often the case that the responses to only a few of the
 <div class="caption">
     Figure 3. .
 </div>
-
 
 
 In other words, projecting the linear response in the subspace spanned by the few dominant nonmodal responses extracts the leading-order response. Indeed, if in the equation above, $$G_1 \gg G_2 > ...$$, then, for a generic $$\hat{f}_h$$, the harmonic response $$\hat{u}_h$$ is well approximated by $$\check{u}_1$$ alone. This means that, at least in the linear regime, the Navier-Stokes equations can be rigorously reduced to a low-dimensional system of equations for the coordinates within this subspace. 
