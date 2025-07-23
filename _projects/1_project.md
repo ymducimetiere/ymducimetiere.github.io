@@ -15,11 +15,11 @@ $$ \hat{u}_h = R(\omega_o) \hat{f}_h = \sum_{j \geq 1} \frac{ q_j }{i\omega_o - 
 Thereby,
 
 \begin{equation}
-||\hat{u}_h||^2 = \langle \hat{u}_h \mid \hat{u}_h \rangle = \sum_{j\geq 1} \frac{ ||q_j||^2 }{|i\omega_o - \sigma_j|^2} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 } + \sum_{j \geq 1} \sum_{k\neq j} \frac{ \langle q_j \mid  q_k \angle }{(i\omega_o - \sigma_j)^*(i\omega_o - \sigma_k)} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 }  ,
+||\hat{u}_h||^2 = \langle \hat{u}_h \mid \hat{u}_h \rangle = \sum_{j\geq 1} \frac{ ||q_j||^2 }{|i\omega_o - \sigma_j|^2} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 } + \sum_{j \geq 1} \sum_{k\neq j} \frac{ \langle q_j \mid  q_k \rangle }{(i\omega_o - \sigma_j)^*(i\omega_o - \sigma_k)} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 }  ,
 \end{equation}
 
-
-If the operator is non-normal, then 
+Now, if the linearised operator is non-normal, the double sum term in the expression above, which involves eigenmode-eigenmode interactions through the inner product  $$\langle q_j \mid  q_k \rangle$$, has no reason to
+vanish if u0 projects over more than one eigenmode.
 
 
 
