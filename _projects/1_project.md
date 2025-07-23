@@ -11,7 +11,7 @@ related_publications: true
 As briefly introduced in the &ldquo; <a href='https://ymducimetiere.github.io/projects/2_project/'> Linear modal and nonmodal stability </a> &rdquo; page of this website, the Navier-Stokes operator linearised around a strong background flow is frequently non-normal. In that case, the linear flow response to an external perturbation can be spanned by a generically vast number of nonorthogonal eigenmodes (nonorthogonal under the same inner product as that used to compute the adjoint operator). Accordingly, the corresponding induced norm of the response can take substantial values, resulting from the interactions between these numerous eigenmodes. Indeed, if $$\{q_j \}_{j\geq 1}$$ and $$\{q^{\dagger}_j \}_{j\geq 1}$$ designate the direct and adjoint eigenmodes family of the linearised operator, associated with the eigenvalues $$\{\sigma_j \}_{j\geq 1}$$, then the linear response $$\hat{u}_h \exp{(i \omega_o t)} + c.c. $$ to a harmonic forcing $$\hat{f}_h \exp{(i \omega_o t)} + c.c. $$ is such that
 
 \begin{equation}
-\hat{u}_h = R(\omega_o) \hat{f}_h = \sum_{j\geq 1} \frac{ q_j }{i\omega_o - \sigma_j}  ,
+\hat{u}_h = R(\omega_o) \hat{f}_h 
 \label{eq:1}
 \end{equation}
 
