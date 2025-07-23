@@ -8,7 +8,24 @@ category:
 related_publications: true
 ---
 
-As briefly introduced in the &ldquo; <a href='https://ymducimetiere.github.io/projects/2_project/'> Linear modal and nonmodal stability </a> &rdquo; page, the linearised Navier-Stokes operator is frequently non-normal. In that case, the linear flow responses to external perturbations can be spanned by a generically vast number of nonorthogonal eigenmodes (nonorthogonal under the inner product used to compute the adjoint operator). Accordingly, the corresponding induced norm of the response can take substantial values, caused by the interactions between these many eigenmodes. These flow responses are therefore qualified as &ldquo; nonmodal &rdquo; responses, to insist on the inefficiency of the eigenbasis to describe them. 
+As briefly introduced in the &ldquo; <a href='https://ymducimetiere.github.io/projects/2_project/'> Linear modal and nonmodal stability </a> &rdquo; page of this website, the Navier-Stokes operator linearised around a strong background flow is frequently non-normal. In that case, the linear flow response to an external perturbation can be spanned by a generically vast number of nonorthogonal eigenmodes (nonorthogonal under the same inner product as that used to compute the adjoint operator). Accordingly, the corresponding induced norm of the response can take substantial values, resulting from the interactions between these numerous eigenmodes. Indeed, if $$\{q_j \}_{j\geq 1}$$ and $$\{q^{\dagger}_j \}_{j\geq 1}$$ designate the direct and adjoint eigenmodes family of the linearised operator, associated with the eigenvalues $$\{\sigma_j \}_{j\geq 1}$$, then the linear response $$\hat{u}_h \exp{(i \omega_o t)} + c.c. $$ to a harmonic forcing $$\hat{f}_h \exp{(i \omega_o t)} + c.c. $$ is such that
+
+\begin{equation}
+\hat{u}_h = R(\omega_o) \hat{f}_h = \sum_{j\geq 1} \frac{ q_j }{i\omega_o - \sigma_j} \frac{\langle q^{\dagger}_j \mid \hat{f}_h \rangle}{\langle q^{\dagger}_j \mid q_j \rangle } ,
+\end{equation}
+
+and thus, 
+
+\begin{equation}
+||\hat{u}_h||^2 = \langle \hat{u}_h \mid \hat{u}_h \rangle = \sum_{j\geq 1} \frac{ ||q_j||^2 }{|i\omega_o - \sigma_j|^2} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 } +  ,
+\end{equation}
+
+
+If the operator is non-normal, then 
+
+
+
+These flow responses are therefore qualified as &ldquo; nonmodal &rdquo; responses, to insist on the inefficiency of the eigenbasis to describe them. 
 
 
 In the previous page, the developments and conclusions were within the framework of linear dynamics, exact only in the limit of infinitesimal perturbations.  However, <b> even if a perturbation is small enough for the linearization to be valid at initial times, precisely because its response can be substantially amplified through linear non-normal mechanisms, the nonlinear interactions of the latter may not remain negligible! These latter typically modify the linear responses </b>, as represented in figure 1. 
@@ -23,12 +40,12 @@ In the previous page, the developments and conclusions were within the framework
 </div>
 
 
-This calls for the study of nonlinear effects on nonmodal flow responses, and this was the topic of my PhD thesis {% cite DucimetiereTH24 %} ! 
+This calls for the study of nonlinear effects on nonmodal flow responses, which was the topic of my PhD thesis {% cite DucimetiereTH24 %}. 
 
 
-In doing so, the first step was to notice that nonmodal tools, solving for the maximum possible response-to-forcing amplification (typically by performing a svd decomposition), makes it possible to construct an orthonormal basis for the structure of the flow excitation and its response. The respective contribution, to the induced norm of the response, of each element of this basis can then be prioritized according to its associated (scalar) &ldquo; gain &rdquo;. As an example, the linear response $$\hat{u}_h \exp{(i \omega_o t)} + c.c. $$ to a harmonic forcing $$\hat{f}_h \exp{(i \omega_o t)} + c.c. $$ is such that   
+In doing so, the first step was to notice that nonmodal tools, solving for the maximum possible response-to-forcing amplification (typically by performing a svd decomposition), makes it possible to construct an orthonormal basis for the structure of the flow excitation and its response. The respective contribution to the induced norm of the response of each element of this basis can then be prioritized according to its associated (scalar) &ldquo; gain &rdquo;. As an example,    
 
-$$\hat{u}_h = R(\omega_o) \hat{f}_h = \sum_{j\geq 1} G_j \check{u}_j \langle \check{f}_j \mid \hat{f}_h \rangle $$, 
+$$\hat{u}_h  = \sum_{j\geq 1} G_j \check{u}_j \langle \check{f}_j \mid \hat{f}_h \rangle $$, 
 
 where the pair $$(\check{u}_j,\check{f}_j)$$ is the $$j$$th singular modes pair of the resolvent operator $$R(\omega_o)$$, normalized as $$||\check{u}_j||=||\check{f}_j||=1$$ for every $$j$$. The scalar $$G_j$$ is the associated gain, such that $$G_j\check{u}_j = R(\omega_o)\check{f}_j$$. <br>
 In fluid mechanics, it is often the case that the responses to only a few of these forcing structures dominate the linear response (e.g., $$G_1 \gg G_2 > ...$$ in the equation above), a property referred to as the low-rank approximation. We refer to figures 2 and 3 for an example. 
