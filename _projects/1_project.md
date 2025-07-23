@@ -17,7 +17,7 @@ $$
 Thereby,
 
 $$
-||\hat{u}_h||^2 = \sum_k \frac{ \left\| q_j \right\|^2 }{|i\omega_o - \sigma_j|^2} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 } + \sum_j \sum_{k\neq j} \frac{ \langle q_j \mid  q_k \rangle }{(i\omega_o - \sigma_j)^*(i\omega_o - \sigma_k)} \frac{\langle q^{\dagger}_j \mid \hat{f}_h \rangle^* \langle q^{\dagger}_k \mid \hat{f}_h \rangle }{\langle q^{\dagger}_j \mid q_j \rangle^* \langle q^{\dagger}_k \mid q_k \rangle},
+\left\| \hat{u}_h \right\|^2 = \sum_k \frac{ \left\| q_j \right\|^2 }{|i\omega_o - \sigma_j|^2} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 } + \sum_j \sum_{k\neq j} \frac{ \langle q_j \mid  q_k \rangle }{(i\omega_o - \sigma_j)^*(i\omega_o - \sigma_k)} \frac{\langle q^{\dagger}_j \mid \hat{f}_h \rangle^* \langle q^{\dagger}_k \mid \hat{f}_h \rangle }{\langle q^{\dagger}_j \mid q_j \rangle^* \langle q^{\dagger}_k \mid q_k \rangle},
 $$
 
 where the star denotes the complex conjugate. Now, if the linearised operator is non-normal, then remember that the eigenmodes do not form an orthogonal set. Consequently, the double sum term in the expression above, which involves eigenmode-eigenmode interactions through the inner product  $$ \langle q_j \mid  q_k \rangle $$, has no reason to vanish if $$ \hat{f}_h $$ projects over more than one adjoint mode (which is generically the case) ! In other words, the energy of the harmonic response, $$ \left\| \hat{u}_h \right\|^2 $$, is determined by a possibly enormous number of eigenmode-eigenmode interactions. Again, the eigenmodes thus form a very inefficient basis, in the sense that the harmonic response is inefficiently described by a single or even a few of them!
