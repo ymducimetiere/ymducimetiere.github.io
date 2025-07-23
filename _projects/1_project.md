@@ -43,11 +43,15 @@ In doing so, the first step was to notice that nonmodal tools, solving for the m
 
 As an example, the harmonic response introduced above can be rewritten   
 
-$$\hat{u}_h  = \sum_{j\geq 1} G_j \check{u}_j \langle \check{f}_j \mid \hat{f}_h \rangle $$, 
+$$
+\hat{u}_h  = \sum_{j\geq 1} G_j \check{u}_j \langle \check{f}_j \mid \hat{f}_h \rangle, 
+$$ 
 
-where the pair $$(\check{u}_j,\check{f}_j)$$ is the $$j$$th singular modes pair of the resolvent operator $$R(\omega_o)$$, normalized as $$||\check{u}_j||=||\check{f}_j||=1$$ for every $$j$$. The scalar $$G_j$$ is the associated gain, such that $$G_j\check{u}_j = R(\omega_o)\check{f}_j$$. Both the $$\{ \check{u}_j \}$$ and $$\{\check{f}_j \}$$ families have the desired property to be orthonormal, such that $$||\hat{u}_h||$$ is now much more simply expressed 
+where the pair $$ (\check{u}_j,\check{f}_j) $$ is the $$ j $$th singular modes pair of the resolvent operator $$ R(\omega_o) $$, normalized as $$ ||\check{u}_j||=||\check{f}_j||=1 $$ for every $$ j $$. The scalar $$ G_j $$ is the associated gain, such that $$ G_j\check{u}_j = R(\omega_o)\check{f}_j $$. Both the $$ \{ \check{u}_j \} $$ and $$ \{\check{f}_j \} $$ families have the desired property to be orthonormal, such that $$ \left\| \hat{u}_h \right\| $$ is now much more simply expressed 
 
-$$|| \hat{u}_h ||^2 = \sum_{j\geq 1} G^2_j |\langle \check{f}_j \mid \hat{f}_h \rangle|^2. $$
+$$
+\left\| \hat{u}_h \right\|^2 = \sum_{j\geq 1} G^2_j |\langle \check{f}_j \mid \hat{f}_h \rangle|^2. 
+$$
 
 Furthermore, in fluid mechanics, it is often the case that the responses to only a few of these forcing structures dominate the linear response, a property referred to as the low-rank approximation. We refer to figures 2 and 3 for an example.
 
@@ -70,12 +74,14 @@ Furthermore, in fluid mechanics, it is often the case that the responses to only
     Figure 3. For the BFS flow sketched in Fig. 2. Top: optimal linear harmonic gain \(G_1\) (full line). The first suboptimal gain \(G_2\) is also reported as the dashed-dotted line. Gains are shown as a function of the forcing frequency. Bottom: spectrum of this same flow in the complex plane (each dot an eigenvalue). The frequency ranges on the \(x\)-axis are the same for both the top and the bottom frames.
 </div>
 
-The low-rank property is of central importance! Let us consider, for instance, that, in the equation above, $$G_1 \gg G_2 > ...$$, then, 
+The low-rank property is of central importance! Let us consider, for instance, that, in the equation above, $$ G_1 \gg G_2 > ... $$, then, 
 
-$$ \hat{u}_h  \approx G_1 \check{u}_1 \langle \check{f}_1 \mid \hat{f}_h \rangle. $$
+$$
+\hat{u}_h  \approx G_1 \check{u}_1 \langle \check{f}_1 \mid \hat{f}_h \rangle. 
+$$
 
 
-which means that, for a generic $$\hat{f}_h$$, the harmonic response $$\hat{u}_h$$ is well approximated by $$\check{u}_1$$ alone! In other words, projecting the linear response in the subspace spanned by the few dominant nonmodal responses extracts the leading-order response. In turn, this implies that, at least in the linear regime, it is justified to reduce the Navier-Stokes equations to a low-dimensional system for the coordinates within this subspace. 
+which means that, for a generic $$ \hat{f}_h $$, the harmonic response $$ \hat{u}_h $$ is well approximated by $$ \check{u}_1 $$ alone! In other words, projecting the linear response in the subspace spanned by the few dominant nonmodal responses extracts the leading-order response. In turn, this implies that, at least in the linear regime, it is justified to reduce the Navier-Stokes equations to a low-dimensional system for the coordinates within this subspace. 
 
 In {% cite Ducimetiere25 %}, François and I argue that projecting the flow response in the subspace spanned by the few dominant linear nonmodal responses also extracts the leading-order response in a weakly nonlinear regime (see figure 4). 
 
@@ -91,14 +97,14 @@ In {% cite Ducimetiere25 %}, François and I argue that projecting the flow resp
 Thereby, we could derive a low-dimensional system of equations for the amplitudes of the dominant nonmodal responses, which incorporate the leading-order nonlinearities of the Navier-Stokes equations (They are valid in a regime where the error resulting from neglecting the higher-order nonlinearities is small according to the chosen induced norm.) Owing to their simplicity, such nonmodal amplitude equations were found to bring insight into the weakly nonlinear mechanisms that modify the gains as one increases the amplitude of the initial condition, the harmonic forcing, or a stochastic forcing, respectively.
 
 
-For instance, again considering the response to a harmonic forcing, under the low-rank assumption that $$G_1\gg G_2 > G_3>...$$ we could derive in {% cite Ducimetiere25 %} that 
+For instance, again considering the response to a harmonic forcing, under the low-rank assumption that $$ G_1\gg G_2 > G_3>... $$ we could derive in {% cite Ducimetiere25 %} that 
 
 \begin{equation} 
 0 = - A - A|A|^2( \mu + \nu) + \phi \langle \check{f}_1 \mid \hat{f}_h \rangle + h.o.t. ,
 \label{eq:1}
 \end{equation} 
 
-where $$A$$ is the amplitude of $$\check{u}_1$$, the leading-order harmonic response and $$\phi$$ the amplitude of the harmonic forcing. Some closed-form analytical expressions were given for the coefficients $$\mu$$ and $$\nu$$. The equation \eqref{eq:1} contains a non-linear term, such that for sufficiently small forcing amplitude $$\phi$$, yet up to values large enough to depart from the linear regime, the amplitude equation can predict the nonlinear evolution of the gain as $$\phi$$ is increased (see figure 5).
+where $$A$$ is the amplitude of $$ \check{u}_1 $$, the leading-order harmonic response and $$\phi$$ the amplitude of the harmonic forcing. Some closed-form analytical expressions were given for the coefficients $$ \mu $$ and $$ \nu $$. The equation \eqref{eq:1} contains a non-linear term, such that for sufficiently small forcing amplitude $$ \phi $$, yet up to values large enough to depart from the linear regime, the amplitude equation can predict the nonlinear evolution of the gain as $$ \phi $$ is increased (see figure 5).
 
 
 <div class="row justify-content-sm-center">
