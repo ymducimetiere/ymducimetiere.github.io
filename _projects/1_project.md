@@ -12,13 +12,14 @@ As briefly introduced in the &ldquo; <a href='https://ymducimetiere.github.io/pr
 
 \begin{equation}
 \hat{u}_h = R(\omega_o) \hat{f}_h = \sum_{j \geq 1} \frac{ q_j }{i\omega_o - \sigma_j} \frac{\langle q^{\dagger}_j \mid \hat{f}_h \rangle}{ \langle q^{\dagger}_j \mid q_j \rangle } ,
-\label{eq:1}
+\label{eq:a}
 \end{equation}
 
 and thus, 
 
 \begin{equation}
 ||\hat{u}_h||^2 = \langle \hat{u}_h \mid \hat{u}_h \rangle = \sum_{j\geq 1} \frac{ ||q_j||^2 }{|i\omega_o - \sigma_j|^2} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 } + \sum_{j \geq 1} \sum_{k\neq j} \frac{ \langle q_j \mid  q_k \angle }{(i\omega_o - \sigma_j)^*(i\omega_o - \sigma_k)} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 }  ,
+\label{eq:b}
 \end{equation}
 
 
