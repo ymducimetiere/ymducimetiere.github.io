@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reduced description of stochastic dynamics 
+title: Reduced description of stochastic dynamics in fluids
 description: 
 img: assets/img/nit.png
 importance: 4
