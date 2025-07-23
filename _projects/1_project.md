@@ -14,15 +14,12 @@ $$ \hat{u}_h = R(\omega_o) \hat{f}_h = \sum_{j \geq 1} \frac{ q_j }{i\omega_o - 
 
 Thereby,
 
-\begin{equation}
-||\hat{u}_h||^2 = \langle \hat{u}_h \mid \hat{u}_h \rangle = \sum_{j\geq 1} \frac{ ||q_j||^2 }{|i\omega_o - \sigma_j|^2} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 } + \sum_{j \geq 1} \sum_{k\neq j} \frac{ \langle q_j \mid  q_k \rangle }{(i\omega_o - \sigma_j)^*(i\omega_o - \sigma_k)} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 }  ,
-\end{equation}
+$$ ||\hat{u}_h||^2 = \langle \hat{u}_h \mid \hat{u}_h \rangle = \sum_{j\geq 1} \frac{ ||q_j||^2 }{|i\omega_o - \sigma_j|^2} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 } + \sum_{j \geq 1} \sum_{k\neq j} \frac{ \langle q_j \mid  q_k \rangle }{(i\omega_o - \sigma_j)^*(i\omega_o - \sigma_k)} \frac{|\langle q^{\dagger}_j \mid \hat{f}_h \rangle|^2}{|\langle q^{\dagger}_j \mid q_j \rangle|^2 }.$$
 
 Now, if the linearised operator is non-normal, then remember that the eigenmodes do not form an orthogonal set. Consequently, the double sum term in the expression above, which involves eigenmode-eigenmode interactions through the inner product  $$\langle q_j \mid  q_k \rangle$$, has no reason to vanish if $$\hat{f}_h$$ projects over more than one eigenmode. In other words, the energy of the harmonic response is determined by a possibly very large number of eigenmode-eigenmode interactions. Again, the eigenmodes thus form a very inefficient basis, in the sense that the harmonic response is inefficiently described by a single or even
 a few of them!
 
 That is why these responses are said to be &ldquo; nonmodal &rdquo; : to insist on the inefficiency of the eigenbasis to describe them. 
-
 
 In the previous page, the developments and conclusions were within the framework of linear dynamics, exact only in the limit of infinitesimal perturbations.  However, <b> even if a perturbation is small enough for the linearization to be valid at initial times, precisely because its response can be substantially amplified through linear non-normal mechanisms, the nonlinear interactions of the latter may not remain negligible! These latter typically modify the linear responses </b>, as represented in figure 1. 
 
