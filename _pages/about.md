@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 <style>
 /* Page-local override: adjust profile picture size (change 140px to your preferred width) */
-img[src$="prof_pic.jpg"] {
+img[src*="prof_pic.jpg"] {
   width: 100px;
   height: auto;
   border-radius: 6px; /* optional: rounded corners; use 50% for circular */
