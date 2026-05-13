@@ -19,6 +19,17 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+<style>
+/* Page-local override: adjust profile picture size (change 140px to your preferred width) */
+img[src$="prof_pic.jpg"] {
+  width: 140px;
+  height: auto;
+  border-radius: 6px; /* optional: rounded corners; use 50% for circular */
+  display: block;
+  margin: 0 0 1rem 0;
+}
+</style>
+
 Welcome to my webpage! I am currently doing a postdoc under the supervision of <a href='https://scholar.google.com/citations?user=Sa2AIxQAAAAJ&hl=en'> Prof. Michael Shelley </a>. I share my time between the Courant Institute (NYU) and the Flatiron Institute (a few blocks away), where I am part of the <a href='https://users.flatironinstitute.org/~bpm/people.html'> Biophysical Modeling Group </a>. Mike and I are working on characterizing the weakly nonlinear stochastic dynamics of an active fluid model.
   
   
