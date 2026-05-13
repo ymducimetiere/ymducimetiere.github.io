@@ -30,8 +30,9 @@ img[src$="prof_pic.jpg"] {
 }
 </style>
 
-Welcome to my webpage! I am currently doing a postdoc under the supervision of <a href='https://scholar.google.com/citations?user=Sa2AIxQAAAAJ&hl=en'> Prof. Michael Shelley </a>. I share my time between the Courant Institute (NYU) and the Flatiron Institute (a few blocks away), where I am part of the <a href='https://users.flatironinstitute.org/~bpm/people.html'> Biophysical Modeling Group </a>. Mike and I are working on characterizing the weakly nonlinear stochastic dynamics of an active fluid model.
-  
+Welcome to my webpage! I am currently doing a postdoc under the supervision of <a href='https://scholar.google.com/citations?user=Sa2AIxQAAAAJ&hl=en'> Prof. Michael Shelley </a>. I share my time between the Courant Institute (NYU) and the Flatiron Institute (a few blocks away), where I am part of the <a href='https://users.flatironinstitute.org/~bpm/people.html'> Biophysical Modeling Group </a>. 
+
+Mike and I are working on the analytical reduction of active fluid models to low-dimensional sets of weakly nonlinear amplitude equations. Having a reduced description of the original, high-dimensional, and out-of-equilibrium system is especially useful for characterizing rare events (e.g., noise-induced transitions), where numerical simulations are often too costly!   
   
 Before that, I completed my <a href='https://infoscience.epfl.ch/entities/publication/8538f410-98fe-4cd7-a604-ed9febabd9a8'>Ph.D.</a> under the supervision of <a href='https://scholar.google.com/citations?user=AmfFSEoAAAAJ&hl=en'> Prof. François Gallaire </a> in the <a href='https://www.epfl.ch/labs/lfmi/'>Laboratory of Fluid Mechanics and Instabilities</a> at EPFL. In the thesis, we proposed a method to derive weakly nonlinear equations for the amplitudes of nonmodal flow responses, whether triggered by harmonic or stochastic forcing, or by an initial condition. 
 
